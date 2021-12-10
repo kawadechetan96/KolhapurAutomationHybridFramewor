@@ -3,14 +3,15 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.kolhapue.testcases.HomePageTest">
+      <class name="com.kolhapur.testcases.HomePageTest">
         <methods>
-          <include name="verify_howtosearch_link_test"/>
           <include name="verify_directory_link_test"/>
           <include name="setup"/>
+          <include name="verify_howtosearch_link_test"/>
           <include name="verify_publicutilities_link_test"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- com.kolhapue.testcases.HomePageTest -->
+      </class> <!-- com.kolhapur.testcases.HomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

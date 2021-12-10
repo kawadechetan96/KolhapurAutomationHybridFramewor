@@ -7,17 +7,22 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+
+import com.kolhapur.utils.WebEventListner;
 
 public class TestBase {
 
 	
 	public static WebDriver driver;
 	public static Properties pro;
+	public static EventFiringWebDriver e_driver;
+    public static WebEventListner eventlistner;
 		
 												public TestBase()
 												{
 													try{
-													File source=new File("E:/Selenium Programs/KolhapurAutomationHybrideFramework/src/main/java/com/kolhapur/configuration/config.property");
+													File source=new File("E:/Selenium Programs/KolhapurAutomationHybridFramework/src/main/java/com/kolhapur/configuration/config.property");
 													FileInputStream fis=new FileInputStream(source);
 													pro=new Properties();
 													pro.load(fis);
@@ -38,7 +43,14 @@ public class TestBase {
 														
 													}
 													
-													driver.manage().deleteAllCookies();
+													e_driver=new EventFiringWebDriver(driver);
+													eventlistner=new WebEventListner();
+													e_driver.register(eventlistner);
+													driver=e_driver;
+													
+													
+													
+												driver.manage().deleteAllCookies();
 													driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 													driver.manage().window().maximize();
 													
