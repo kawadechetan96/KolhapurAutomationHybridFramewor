@@ -1,4 +1,4 @@
-package com.kolhapue.testcases;
+package com.kolhapur.testcases;
 
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
