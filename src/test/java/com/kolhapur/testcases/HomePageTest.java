@@ -55,6 +55,13 @@ public class HomePageTest extends TestBase{
 																		Assert.assertEquals(title, "How to Reach | Kolhapur | India");
 																	}
 																	
+																	@Test(priority=4)
+																	public void verify_feedback_link_test()
+																	{
+																		homepage.verify_feedback_link();
+																		String title=driver.getTitle();
+																		Assert.assertEquals(title, "Feedback | Kolhapur | India");
+																	}
 																	@AfterMethod
 																	public void teardown(ITestResult result)
 																	{		

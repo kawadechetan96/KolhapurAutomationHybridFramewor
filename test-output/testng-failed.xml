@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Kolhapur Automation Test Suite]">
-  <listeners>
-    <listener class-name="com.kolhapur.extentreport.ExtentReporterNG"/>
-  </listeners>
-  <test name="Kolhapur Automation(failed)">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="com.kolhapur.testcases.HomePageTest">
+      <class name="com.kolhapur.testcases.FeedBackPageTest">
         <methods>
-          <include name="setup"/>
-          <include name="verify_howtosearch_link_test"/>
-          <include name="teardown"/>
+          <include name="passdata_test"/>
         </methods>
-      </class> <!-- com.kolhapur.testcases.HomePageTest -->
+      </class> <!-- com.kolhapur.testcases.FeedBackPageTest -->
     </classes>
-  </test> <!-- Kolhapur Automation(failed) -->
-</suite> <!-- Failed suite [Kolhapur Automation Test Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

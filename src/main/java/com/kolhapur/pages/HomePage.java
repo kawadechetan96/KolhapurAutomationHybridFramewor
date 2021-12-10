@@ -22,6 +22,9 @@ public class HomePage extends TestBase{
 	@FindBy(xpath="//a[text()='How to Reach']")
 	WebElement howtosearch;
 	
+	@FindBy(xpath="//a[text()='Feedback']")
+	WebElement feedback;
+	
 																public HomePage()
 																{
 																	PageFactory.initElements(driver, this);
@@ -47,5 +50,11 @@ public class HomePage extends TestBase{
 																	Testutils.actions(directory,publicutilies);
 																	howtosearch.click();														
 																	return new HowToSearch();
+																}
+																
+																public FeedBackPage verify_feedback_link()
+																{
+																	feedback.click();
+																	return new FeedBackPage();
 																}
 }

@@ -1,6 +1,6 @@
 package com.kolhapur.testcases;
 
-public class HowToSearchTest {
+public class HowToSearchPageTest {
 	
 	
 
