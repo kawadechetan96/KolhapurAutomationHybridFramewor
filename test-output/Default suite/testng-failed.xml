@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.kolhapur.testcases.FeedBackPageTest">
+      <class name="com.kolhapur.testcases.HomePageTest">
         <methods>
-          <include name="passdata_test"/>
+          <include name="setup"/>
+          <include name="verify_feedback_link_test"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- com.kolhapur.testcases.FeedBackPageTest -->
+      </class> <!-- com.kolhapur.testcases.HomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -11,6 +11,7 @@
   <test name="Kolhapur Automation">
     				<classes>
      							 <class name="com.kolhapur.testcases.HomePageTest"/>
+     							 <class name="com.kolhapur.testcases.FeedBackPageTest"/>
      							 
     				</classes>
   </test> <!-- Test -->

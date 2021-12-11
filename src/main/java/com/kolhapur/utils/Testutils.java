@@ -44,7 +44,7 @@ public class Testutils extends TestBase{
 													}catch(Exception e){System.out.println("exception catch"+e.getMessage());}	
 											}
 											
-											
+											/*****Excel data generic function*****/
 											public static Object[][] excelconfig(String sheetname)
 											{
 												File source=new File("./ExcelFile/ExcelConfig.xlsx");
@@ -67,10 +67,9 @@ public class Testutils extends TestBase{
 														data[i][j]=sheet.getRow(i+1).getCell(j).getStringCellValue();
 													}
 												}
-												
-												return data;
+													return data;
 											}
-												
+											
 												
 												
 										

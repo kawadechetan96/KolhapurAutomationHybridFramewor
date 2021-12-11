@@ -1,6 +1,7 @@
 package com.kolhapur.testcases;
 
 
+import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
@@ -46,8 +47,12 @@ public class FeedBackPageTest extends TestBase {
 																}
 																
 																@AfterMethod
-																public void teardown()
+																public void teardown(ITestResult result)
 																{		
+																	if(ITestResult.FAILURE==result.getStatus())
+																	{
+																		Testutils.screenshot();
+																	}
 																	driver.close();
 																}
 
