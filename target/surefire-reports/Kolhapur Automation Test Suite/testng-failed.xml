@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Kolhapur Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.kolhapur.extentreport.ExtentReporterNG"/>
+  </listeners>
+  <test name="Kolhapur Automation(failed)">
+    <classes>
+      <class name="com.kolhapur.testcases.FeedBackPageTest">
+        <methods>
+          <include name="passdata_test" invocation-numbers="2"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.kolhapur.testcases.FeedBackPageTest -->
+      <class name="com.kolhapur.testcases.HomePageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="verify_digital_india_logo_test"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.kolhapur.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- Kolhapur Automation(failed) -->
+</suite> <!-- Failed suite [Kolhapur Automation Test Suite] -->

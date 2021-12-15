@@ -1,101 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="8" passed="8">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Kolhapur Automation Test Suite" duration-ms="276512" started-at="2021-12-11T04:46:25Z" finished-at="2021-12-11T04:51:02Z">
+  <suite name="Default suite" duration-ms="22817" started-at="2021-12-15T07:09:07Z" finished-at="2021-12-15T07:09:30Z">
     <groups>
     </groups>
-    <test name="Kolhapur Automation" duration-ms="276512" started-at="2021-12-11T04:46:25Z" finished-at="2021-12-11T04:51:02Z">
+    <test name="Default test" duration-ms="22817" started-at="2021-12-15T07:09:07Z" finished-at="2021-12-15T07:09:30Z">
       <class name="com.kolhapur.testcases.HomePageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.kolhapur.testcases.HomePageTest@224edc67]" name="setup" is-config="true" duration-ms="50392" started-at="2021-12-11T10:16:25Z" finished-at="2021-12-11T10:17:16Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.kolhapur.testcases.HomePageTest@1593948d]" name="setup" is-config="true" duration-ms="11609" started-at="2021-12-15T12:39:07Z" finished-at="2021-12-15T12:39:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verify_directory_link_test()[pri:0, instance:com.kolhapur.testcases.HomePageTest@224edc67]" name="verify_directory_link_test" duration-ms="5148" started-at="2021-12-11T10:17:16Z" finished-at="2021-12-11T10:17:21Z">
+        <test-method status="PASS" signature="verify_directory_link_test()[pri:0, instance:com.kolhapur.testcases.HomePageTest@1593948d]" name="verify_directory_link_test" duration-ms="2601" started-at="2021-12-15T12:39:19Z" finished-at="2021-12-15T12:39:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_directory_link_test -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.kolhapur.testcases.HomePageTest@224edc67]" name="teardown" is-config="true" duration-ms="109" started-at="2021-12-11T10:17:21Z" finished-at="2021-12-11T10:17:21Z">
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.kolhapur.testcases.HomePageTest@1593948d]" name="teardown" is-config="true" duration-ms="62" started-at="2021-12-15T12:39:21Z" finished-at="2021-12-15T12:39:21Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verify_directory_link_test status=SUCCESS method=HomePageTest.verify_directory_link_test()[pri:0, instance:com.kolhapur.testcases.HomePageTest@224edc67] output={null}]]]>
+                <![CDATA[[TestResult name=verify_directory_link_test status=SUCCESS method=HomePageTest.verify_directory_link_test()[pri:0, instance:com.kolhapur.testcases.HomePageTest@1593948d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.kolhapur.testcases.HomePageTest@224edc67]" name="setup" is-config="true" duration-ms="6566" started-at="2021-12-11T10:17:21Z" finished-at="2021-12-11T10:17:27Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.kolhapur.testcases.HomePageTest@1593948d]" name="setup" is-config="true" duration-ms="6846" started-at="2021-12-15T12:39:21Z" finished-at="2021-12-15T12:39:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verify_publicutilities_link_test()[pri:0, instance:com.kolhapur.testcases.HomePageTest@224edc67]" name="verify_publicutilities_link_test" duration-ms="1997" started-at="2021-12-11T10:17:27Z" finished-at="2021-12-11T10:17:29Z">
+        <test-method status="PASS" signature="verify_public_utilities_link_test()[pri:0, instance:com.kolhapur.testcases.HomePageTest@1593948d]" name="verify_public_utilities_link_test" duration-ms="1617" started-at="2021-12-15T12:39:28Z" finished-at="2021-12-15T12:39:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_publicutilities_link_test -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.kolhapur.testcases.HomePageTest@224edc67]" name="teardown" is-config="true" duration-ms="76" started-at="2021-12-11T10:17:29Z" finished-at="2021-12-11T10:17:29Z">
+        </test-method> <!-- verify_public_utilities_link_test -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.kolhapur.testcases.HomePageTest@1593948d]" name="teardown" is-config="true" duration-ms="69" started-at="2021-12-15T12:39:30Z" finished-at="2021-12-15T12:39:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verify_publicutilities_link_test status=SUCCESS method=HomePageTest.verify_publicutilities_link_test()[pri:0, instance:com.kolhapur.testcases.HomePageTest@224edc67] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.kolhapur.testcases.HomePageTest@224edc67]" name="setup" is-config="true" duration-ms="7657" started-at="2021-12-11T10:17:29Z" finished-at="2021-12-11T10:17:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verify_howtosearch_link_test()[pri:0, instance:com.kolhapur.testcases.HomePageTest@224edc67]" name="verify_howtosearch_link_test" duration-ms="1701" started-at="2021-12-11T10:17:37Z" finished-at="2021-12-11T10:17:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_howtosearch_link_test -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.kolhapur.testcases.HomePageTest@224edc67]" name="teardown" is-config="true" duration-ms="54" started-at="2021-12-11T10:17:39Z" finished-at="2021-12-11T10:17:39Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verify_howtosearch_link_test status=SUCCESS method=HomePageTest.verify_howtosearch_link_test()[pri:0, instance:com.kolhapur.testcases.HomePageTest@224edc67] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.kolhapur.testcases.HomePageTest@224edc67]" name="setup" is-config="true" duration-ms="13349" started-at="2021-12-11T10:17:39Z" finished-at="2021-12-11T10:17:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verify_feedback_link_test()[pri:0, instance:com.kolhapur.testcases.HomePageTest@224edc67]" name="verify_feedback_link_test" duration-ms="1554" started-at="2021-12-11T10:17:52Z" finished-at="2021-12-11T10:17:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_feedback_link_test -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.kolhapur.testcases.HomePageTest@224edc67]" name="teardown" is-config="true" duration-ms="68" started-at="2021-12-11T10:17:54Z" finished-at="2021-12-11T10:17:54Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verify_feedback_link_test status=SUCCESS method=HomePageTest.verify_feedback_link_test()[pri:0, instance:com.kolhapur.testcases.HomePageTest@224edc67] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.kolhapur.testcases.HomePageTest@224edc67]" name="setup" is-config="true" duration-ms="53369" started-at="2021-12-11T10:17:54Z" finished-at="2021-12-11T10:18:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verify_digital_india_logo_test()[pri:0, instance:com.kolhapur.testcases.HomePageTest@224edc67]" name="verify_digital_india_logo_test" duration-ms="131" started-at="2021-12-11T10:18:47Z" finished-at="2021-12-11T10:18:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_digital_india_logo_test -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.kolhapur.testcases.HomePageTest@224edc67]" name="teardown" is-config="true" duration-ms="100" started-at="2021-12-11T10:18:47Z" finished-at="2021-12-11T10:18:47Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verify_digital_india_logo_test status=SUCCESS method=HomePageTest.verify_digital_india_logo_test()[pri:0, instance:com.kolhapur.testcases.HomePageTest@224edc67] output={null}]]]>
+                <![CDATA[[TestResult name=verify_public_utilities_link_test status=SUCCESS method=HomePageTest.verify_public_utilities_link_test()[pri:0, instance:com.kolhapur.testcases.HomePageTest@1593948d] output={null}]]]>
               </value>
             </param>
           </params>
@@ -103,131 +46,6 @@
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.kolhapur.testcases.HomePageTest -->
-      <class name="com.kolhapur.testcases.FeedBackPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.kolhapur.testcases.FeedBackPageTest@4678c730]" name="setup" is-config="true" duration-ms="24005" started-at="2021-12-11T10:18:48Z" finished-at="2021-12-11T10:19:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="passdata_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.kolhapur.testcases.FeedBackPageTest@4678c730]" name="passdata_test" duration-ms="2527" started-at="2021-12-11T10:19:12Z" data-provider="passdata" finished-at="2021-12-11T10:19:14Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Ajay]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[ajay05@gmail.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Math]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[hi]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- passdata_test -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.kolhapur.testcases.FeedBackPageTest@4678c730]" name="teardown" is-config="true" duration-ms="80" started-at="2021-12-11T10:19:14Z" finished-at="2021-12-11T10:19:15Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=passdata_test status=SUCCESS method=FeedBackPageTest.passdata_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.kolhapur.testcases.FeedBackPageTest@4678c730] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.kolhapur.testcases.FeedBackPageTest@4678c730]" name="setup" is-config="true" duration-ms="39849" started-at="2021-12-11T10:19:15Z" finished-at="2021-12-11T10:19:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="passdata_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.kolhapur.testcases.FeedBackPageTest@4678c730]" name="passdata_test" duration-ms="12226" started-at="2021-12-11T10:19:54Z" data-provider="passdata" finished-at="2021-12-11T10:20:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Kiran]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[kirangodse@gmailcom]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[English]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[hello]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- passdata_test -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.kolhapur.testcases.FeedBackPageTest@4678c730]" name="teardown" is-config="true" duration-ms="77" started-at="2021-12-11T10:20:07Z" finished-at="2021-12-11T10:20:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=passdata_test status=SUCCESS method=FeedBackPageTest.passdata_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.kolhapur.testcases.FeedBackPageTest@4678c730] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.kolhapur.testcases.FeedBackPageTest@4678c730]" name="setup" is-config="true" duration-ms="42848" started-at="2021-12-11T10:20:07Z" finished-at="2021-12-11T10:20:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="passdata_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.kolhapur.testcases.FeedBackPageTest@4678c730]" name="passdata_test" duration-ms="12072" started-at="2021-12-11T10:20:50Z" data-provider="passdata" finished-at="2021-12-11T10:21:02Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Shyam]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[shyamantarkar@yahoo.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Bio]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[wellcome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- passdata_test -->
-        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:com.kolhapur.testcases.FeedBackPageTest@4678c730]" name="teardown" is-config="true" duration-ms="56" started-at="2021-12-11T10:21:02Z" finished-at="2021-12-11T10:21:02Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=passdata_test status=SUCCESS method=FeedBackPageTest.passdata_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.kolhapur.testcases.FeedBackPageTest@4678c730] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.kolhapur.testcases.FeedBackPageTest -->
-    </test> <!-- Kolhapur Automation -->
-  </suite> <!-- Kolhapur Automation Test Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

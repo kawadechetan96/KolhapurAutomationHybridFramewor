@@ -5,6 +5,8 @@ import java.io.FileInputStream;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
@@ -18,7 +20,7 @@ public class TestBase {
 	public static Properties pro;
 	public static EventFiringWebDriver e_driver;
     public static WebEventListner eventlistner;
-		
+	public static Logger logger;	
 												public TestBase()
 												{
 													try{
@@ -50,11 +52,13 @@ public class TestBase {
 													
 													
 													
-												driver.manage().deleteAllCookies();
+													driver.manage().deleteAllCookies();
 													driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 													driver.manage().window().maximize();
-													
+													logger=Logger.getLogger("KolhapurAutomationHybridFramework");
+													/*PropertyConfigurator.configure("Log4j.properties");*/
 													driver.get(pro.getProperty("url"));
+													logger.info("**************************url lauched*****************");
 												}
 	
 	

@@ -5,9 +5,9 @@
     <classes>
       <class name="com.kolhapur.testcases.HomePageTest">
         <methods>
+          <include name="verify_directory_link_test"/>
+          <include name="verify_public_utilities_link_test"/>
           <include name="setup"/>
-          <include name="verify_feedback_link_test"/>
-          <include name="teardown"/>
         </methods>
       </class> <!-- com.kolhapur.testcases.HomePageTest -->
     </classes>
