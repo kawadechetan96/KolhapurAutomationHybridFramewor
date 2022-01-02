@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.kolhapur.testcases.HomePageTest">
+      <class name="com.kolhapur.testcases.PlaceToInterestPageTest">
         <methods>
-          <include name="verify_directory_link_test"/>
-          <include name="verify_public_utilities_link_test"/>
+          <include name="capturetext_test"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.kolhapur.testcases.HomePageTest -->
+      </class> <!-- com.kolhapur.testcases.PlaceToInterestPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

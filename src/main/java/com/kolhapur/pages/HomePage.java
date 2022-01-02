@@ -2,6 +2,7 @@ package com.kolhapur.pages;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
 import com.kolhapur.testbase.TestBase;
@@ -27,6 +28,12 @@ public class HomePage extends TestBase{
 	
 	@FindBy(xpath="//img[@alt='Digital India']")
 	WebElement digitalindialogo;
+	
+	@FindBy(how=How.CSS, using="ul.vc_tta-tabs-list>li:first-of-type")
+	WebElement newupadte;
+	
+	@FindBy(how=How.CSS, using="ul.sub-menu.show-menu>#menu-item-2827")
+	WebElement placetointerest;
 	
 																public HomePage()
 																{
@@ -66,5 +73,17 @@ public class HomePage extends TestBase{
 																public boolean verify_digital_india_logo()
 																{
 																	return digitalindialogo.isDisplayed();
+																}
+
+																public String verify_newupdate()
+																{
+																	return newupadte.getText();
+																}
+																
+																public PlaceToInterestPage place_to_interest()
+																{
+																	Testutils.actions(directory, publicutilies);
+																	placetointerest.click();
+																	return new PlaceToInterestPage();
 																}
 }
