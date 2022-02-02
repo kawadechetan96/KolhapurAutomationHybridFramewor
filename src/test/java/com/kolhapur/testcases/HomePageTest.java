@@ -6,7 +6,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import com.kolhapur.pages.HomePage;
-import com.kolhapur.pages.PlaceToInterestPage;
+
 import com.kolhapur.testbase.TestBase;
 import com.kolhapur.utils.Testutils;
 

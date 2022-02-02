@@ -1,16 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 180.809 s <<< FAILURE! - in TestSuite
-com.kolhapur.testcases.HomePageTest.verify_digital_india_logo_test  Time elapsed: 13.118 s  <<< FAILURE!
-java.lang.StackOverflowError
-
-com.kolhapur.testcases.HomePageTest.teardown[[TestResult name=verify_digital_india_logo_test status=FAILURE method=HomePageTest.verify_digital_india_logo_test()[pri:0, instance:com.kolhapur.testcases.HomePageTest@2344fc66] output={null}]](0)  Time elapsed: 25.687 s  <<< FAILURE!
-java.lang.StackOverflowError
-
-com.kolhapur.testcases.FeedBackPageTest.passdata_test[Shyam, shyamantarkar@yahoo.com, Bio, wellcome](3)  Time elapsed: 12.693 s  <<< FAILURE!
-java.lang.StackOverflowError
-
-com.kolhapur.testcases.FeedBackPageTest.teardown[[TestResult name=passdata_test status=FAILURE method=FeedBackPageTest.passdata_test(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.kolhapur.testcases.FeedBackPageTest@7ca48474] output={null}]](0)  Time elapsed: 27.693 s  <<< FAILURE!
-java.lang.StackOverflowError
-
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 202.347 s - in TestSuite
